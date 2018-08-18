@@ -8,8 +8,8 @@ tmp=puntos.tmp
 vrt=puntos.vrt
 new_shp_name=$2
 
-dir_base=/home/santiago/datos/radar-rasterizado/
-dir_hechos=/home/santiago/datos/hechos/
+dir_base=/home/datos/radar-rasterizado/
+dir_hechos=/home/datos/hechos/
 
 #Prepara el encabezado para el csv
 echo lon,lat,dbz > ${csv}
